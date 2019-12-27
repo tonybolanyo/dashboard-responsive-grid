@@ -18,6 +18,40 @@
     overflow: hidden;
     justify-self: stretch;
     padding: var(--card-padding);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .body:first-child {
+    margin-top: calc(1.5rem + 2 * var(--card-padding));
+}
+
+.card .kpi {
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2rem;
+    text-align: right;
+    margin: 0 15%;
+    width: 80%;
+}
+
+.card .kpi .limit {
+    color: var(--dangercolor);
+    font-size: var(--font-sm);
+}
+.card .kpi .limit::before {
+    content: " / ";
+}
+
+.card .kpi-small {
+    color: var(--textgray);
+    font-size: var(--font-sm);
+    font-weight: 600;
+    text-align: right;
+    margin: 0 15%;
+    width: 80%;
 }
 
 .card .footer {
