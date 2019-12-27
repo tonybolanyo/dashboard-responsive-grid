@@ -64,6 +64,7 @@ const webpackInitConfig = {
       new HTMLWebpackPlugin({
         filename: indexOutput,
         template: indextInput,
+        favicon: './src/favicon/favicon.ico',
       }),
       new MiniCSSExtract({
         filename: '[name].css',
