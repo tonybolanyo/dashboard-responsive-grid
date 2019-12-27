@@ -1,0 +1,35 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(var(--card-width), 1fr));
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 1rem;
+  background-color: var(--bgcolor);
+}
+
+.cards.two-cols {
+  grid-template-columns: repeat(2, minmax(var(--card-width), 1fr));
+}
+
+.cards.three-cols {
+  grid-template-columns: repeat(3, minmax(var(--card-width), 1fr));
+}
+
+.cards.four-cols {
+  grid-template-columns: repeat(4, minmax(var(--card-width), 1fr));
+}
+
+.cards.five-cols {
+  grid-template-columns: repeat(5, minmax(var(--card-width), 1fr));
+}
+
+.cards.six-cols {
+  grid-template-columns: repeat(6, minmax(var(--card-width), 1fr));
+}
+
+.cards.seven-cols {
+  grid-template-columns: repeat(7, minmax(var(--card-width), 1fr));
+}
+
+.cards.eight-cols {
+  grid-template-columns: repeat(8, minmax(var(--card-width), 1fr));
+}

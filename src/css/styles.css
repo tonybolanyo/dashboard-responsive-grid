@@ -1,3 +1,6 @@
-body {
-    background: url(../img/dashboard-512.png) top left no-repeat;
-}
+@import './variables.css';
+@import './reset.css';
+@import './cards-grid.css';
+@import './card-grid-item.css';
+@import './card-design.css';
+@import './modifiers.css';

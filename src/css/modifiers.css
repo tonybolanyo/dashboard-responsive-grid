@@ -1,0 +1,6 @@
+.full-height {
+    display: grid;
+    height: 100vh;
+    justify-content: stretch;
+    padding: 1rem;
+}

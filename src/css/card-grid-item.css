@@ -1,0 +1,53 @@
+.card {
+  border: var(--card-border);
+  border-radius: var(--card-radius);
+  background-color: var(--card-bg-color);
+}
+
+.card.two-cols {
+  grid-column: span 2;
+}
+
+.card.three-cols {
+  grid-column: span 3;
+}
+
+.card.four-cols {
+  grid-column: span 4;
+}
+
+.card.five-cols {
+  grid-column: span 5;
+}
+
+.card.six-cols {
+  grid-column: span 6;
+}
+
+.card.seven-cols {
+  grid-column: span 7;
+}
+
+.card.eight-cols {
+  grid-column: span 8;
+}
+
+.card.two-rows {
+  grid-row: span 2;
+}
+
+.card.three-rows {
+  grid-row: span 3;
+}
+
+.card.four-rows {
+  grid-row: span 4;
+}
+
+.card.five-rows {
+  grid-row: span 5;
+}
+
+.card.six-rows {
+  grid-row: span 6;
+}

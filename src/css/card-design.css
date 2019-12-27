@@ -1,0 +1,28 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    box-shadow: var(--card-shadow);
+}
+
+.card .header {
+    flex: 1;
+    padding: var(--card-padding);
+    font-weight: 600;
+    line-height: 1.5rem;
+    border-bottom: var(--default-border);
+}
+
+.card .body {
+    flex: 1 1 80%;
+    overflow: hidden;
+    justify-self: stretch;
+    padding: var(--card-padding);
+}
+
+.card .footer {
+    flex: 1;
+    padding: var(--card-padding);
+    color: var(--textgray);
+    font-size: var(--font-sm);
+}
