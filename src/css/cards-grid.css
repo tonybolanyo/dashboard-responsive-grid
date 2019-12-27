@@ -6,6 +6,10 @@
   background-color: var(--bgcolor);
 }
 
+.dense {
+  grid-auto-flow: dense;
+}
+
 .cards.two-cols {
   grid-template-columns: repeat(2, minmax(var(--card-width), 1fr));
 }
