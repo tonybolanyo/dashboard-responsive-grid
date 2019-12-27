@@ -47,10 +47,16 @@ const webpackInitConfig = {
               options: {
                 context: 'src/img',
                 outputPath: 'img/',
-                // publicPath: 'images/',
+                // bug in 0.5 version
+                // https://github.com/webpack-contrib/html-loader/issues/203
+                esModule: false,
               },
             },
           ],
+        },
+        {
+          test: /\.html$/,
+          loader: 'html-loader',
         },
       ],
     },
